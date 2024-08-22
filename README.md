@@ -1,0 +1,2 @@
+# dynamoDBChangeSync
+一种使用dynamoDB stream增量同步到mongo的方法

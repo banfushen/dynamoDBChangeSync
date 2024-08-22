@@ -1,2 +1,5 @@
 # dynamoDBChangeSync
-一种使用dynamoDB stream增量同步到mongo的方法
+一种使用dynamoDB stream增量同步到mongo的方法，先同步发生改变的key，再同步改变的key对应的value到指定表
+
+syncChangeKey: 同步改变的key到mongo中
+syncChange：同步改变的key对应的value到mongo中
